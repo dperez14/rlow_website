@@ -10,10 +10,29 @@ body {
 }
 
 /* mobile style */
+
 h1 {
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   color: white;
   text-align: center;
+  border: 2px solid oldlace;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+  /* padding: 1rem;
+  padding-bottom: 5px; */
+}
+
+li #tiktok, li #apex, li #twitch, li #instagram {
+  padding: 1rem;
+  padding-bottom: 10px;
+}
+
+li #twitter {
+  padding-top: 10px;
+  padding-bottom: 25px;
 }
