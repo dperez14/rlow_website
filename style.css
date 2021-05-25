@@ -35,13 +35,18 @@ li {
   padding-bottom: 5px; */
 }
 
-li #tiktok, li #apex, li #twitch, li #instagram {
+li #apex, li #twitch, li #instagram {
   padding: 1rem;
   padding-bottom: 10px;
 }
 
-li #twitter {
+li #tiktok {
   padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li #twitter {
+  padding-top: 1rem;
   padding-bottom: 25px;
 }
 
@@ -53,9 +58,24 @@ li #twitter {
     font-size: 50px;
   }
 
-  li #tiktok, li #apex, li #twitch, li #instagram, li #twitter, li #shopify {
+  li #tiktok, li #twitch, li #instagram, li #twitter, li #shopify {
     width: 110px;
     height: 110px;
+  }
+
+  li #apex, li #twitch, li #instagram {
+    padding: 1.5rem;
+    padding-bottom: 10px;
+  }
+
+  li #twitter {
+    padding-top: 1.5rem;
+    padding-bottom: 25px;
+  }
+
+  li #apex {
+    width: 150px;
+    height: 90px;
   }
 }
 
@@ -76,7 +96,7 @@ li #twitter {
   li #twitter {
     width: 150px;
     height: 150px;
-    padding: 10px;
+    padding: 2.3rem;
     padding-bottom: 10px;
   }
 
